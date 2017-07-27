@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-//路由 测试提交
+//路由
 var index = require('./routes/index');
 var users = require('./routes/users');
 var login=require('./routes/login')
